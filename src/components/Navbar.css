@@ -1,0 +1,15 @@
+/* Navbar.css */
+
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+  }
+  
+  /* Customize the appearance of navbar items if needed */
+  .nav-link {
+    color: #333; /* Change text color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

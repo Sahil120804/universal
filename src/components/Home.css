@@ -23,19 +23,19 @@
 
 .about-us-section {
   padding: 80px 0; /* Add some padding */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center items vertically */
 }
 
 .about-image {
-  flex: 1; /* Allow image to take available space */
-  display: flex; /* Use flexbox for alignment */
-  justify-content: flex-start; /* Align image to the left */
+  display: flex; 
+  justify-content: flex-end; /* Align image to the right */
 }
 
 .about-image img {
-  max-width: 90%; /* Make image responsive */
+  max-width: 80%; /* Increase image size */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: add some rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow for better aesthetics */
+  margin-left: 20px; /* Add some margin to create space on the left */
 }
 
 .why-choose-us {
@@ -50,13 +50,14 @@
 }
 
 .product-card {
-  margin: 5px; /* Set a small margin for spacing between cards */
+  margin: 10px 0; /* Add margin for spacing */
+  max-width: 250px; /* Increased size of product cards */
+  width: 100%; /* Ensure full width in its column */
 }
 
 .product-card img {
-  width: 100%; /* Make product images responsive */
+  max-width: 100%; /* Ensure the product image is responsive */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: add some rounded corners */
 }
 
 .footer-section {
@@ -65,8 +66,9 @@
   color: #333; /* Dark text color */
 }
 
-.container {
-  max-width: 1200px; /* Optional: set max width for container */
-  margin: auto; /* Center the container */
-  padding: 0 15px; /* Add some horizontal padding */
+.about-image img {
+  max-width: 80%; /* Increased size for the about us image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add some rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow for better aesthetics */
 }
